@@ -93,7 +93,7 @@ class GazeTracker:
         print(f"Total time looking at screen: {self.total_time_looking_at_screen:.2f} seconds")
 
 if __name__ == "__main__":
-    video_path = "your_video.mp4"
+    video_path = "your_video2.mp4"
     predictor_path = "shape_predictor_68_face_landmarks.dat"
     gaze_tracker = GazeTracker(video_path, predictor_path)
     gaze_tracker.run()
